@@ -1,0 +1,23 @@
+{
+  "name": "hf-multiplayer",
+  "version": "0.2.1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "lix lime build html5 -minify",
+    "dev": "node bin/startup.js",
+    "server": "haxe -v --wait 8000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^6.4.0",
+    "http-server": "^14.0.0",
+    "log-update": "^5.0.0",
+    "ttab": "^0.7.2"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
